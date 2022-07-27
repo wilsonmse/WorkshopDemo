@@ -5,7 +5,6 @@ param (
 begin {
     $pi = [math]::PI
 }
-
 process {
     $circunferencia = 2*$pi*$raio
 }
