@@ -15,7 +15,7 @@
 
 [CmdletBinding()]
 param (
-    [int]$lado
+    [double]$lado
 )
 $area =$lado*$lado
 return $area
